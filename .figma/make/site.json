@@ -1,0 +1,21 @@
+{
+  "title": "أوفيارا | التطوير العقاري والمقاولات والتجارة",
+  "description": "أوفيارا شركة سعودية تجمع التطوير العقاري والمقاولات والتجارة ضمن شركة واحدة.",
+  "language": "ar",
+  "robots": {
+    "index": true
+  },
+  "icons": {
+    "icon": ""
+  },
+  "openGraph": {
+    "image": "/images/oviara-hero.png"
+  },
+  "customScripts": {
+    "headEnd": "<script>try{var l=localStorage.getItem('oviara-locale');if(l==='en'||l==='ar'){document.documentElement.lang=l;document.documentElement.dir=l==='ar'?'rtl':'ltr'}}catch(e){}</script>"
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
