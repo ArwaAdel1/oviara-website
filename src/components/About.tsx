@@ -10,7 +10,7 @@ export function About() {
       <div className="container intro-grid">
         <div className="intro-image-wrap">
           <img
-            src="https://images.unsplash.com/photo-1541971875076-8f970d573be6?auto=format&fit=crop&w=1400&q=90"
+            src="/images/about-riyadh.webp"
             alt={about.imageAlt}
             loading="lazy"
             decoding="async"

@@ -58,7 +58,7 @@ export const en: SiteContent = {
     ],
     discover: "Discover More",
     imageAlt:
-      "Modern building facade representing OVIARA's real estate development activity",
+      "Modern building in Riyadh's King Abdullah Financial District representing real estate development",
     noteTitle: "One company. Three activities.",
     noteSubtitle: "Integrated by design",
   },
@@ -74,27 +74,24 @@ export const en: SiteContent = {
         title: "Real Estate Development",
         description:
           "Real estate development focused on functional, considered spaces.",
-        image:
-          "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=85",
-        alt: "Modern commercial building representing real estate development",
+        image: "/images/activity-development.webp",
+        alt: "Modern residential building facade with balconies representing real estate development",
         icon: "building",
       },
       {
         title: "Contracting",
         description:
           "Contracting services delivered through coordinated planning and professional execution.",
-        image:
-          "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1000&q=85",
-        alt: "Construction site with a crane representing contracting activity",
+        image: "/images/activity-contracting.webp",
+        alt: "Construction crane over a building under construction in Riyadh representing contracting activity",
         icon: "crane",
       },
       {
         title: "Trading",
         description:
           "Trading activity that supports the company's broader business and client requirements.",
-        image:
-          "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1000&q=85",
-        alt: "Organized warehouse shelving representing trading activity",
+        image: "/images/activity-trading.webp",
+        alt: "Shipping containers and port cranes at dusk representing trading and logistics activity",
         icon: "layers",
       },
     ],

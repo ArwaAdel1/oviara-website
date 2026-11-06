@@ -65,7 +65,7 @@
 .quote-button svg { width: 15px; height: 15px; }
 .menu-button, .mobile-nav-actions { display: none; }
 
-.hero-section { position: relative; min-height: 800px; height: 100vh; max-height: 980px; display: flex; align-items: center; color: white; background: linear-gradient(90deg, rgba(10,20,31,.96) 0%, rgba(11,23,36,.77) 45%, rgba(10,20,31,.15) 78%), linear-gradient(0deg, rgba(11,21,32,.38), transparent 50%), url('/images/oviara-hero.png') center 54% / cover no-repeat; }
+.hero-section { position: relative; min-height: 800px; height: 100vh; max-height: 980px; display: flex; align-items: center; color: white; background: linear-gradient(90deg, rgba(10,20,31,.96) 0%, rgba(11,23,36,.77) 45%, rgba(10,20,31,.15) 78%), linear-gradient(0deg, rgba(11,21,32,.38), transparent 50%), url('/images/hero-riyadh.webp') center 54% / cover no-repeat; }
 .hero-section::after { content: ''; position: absolute; inset: 0; border: 1px solid rgba(255,255,255,.06); pointer-events: none; }
 .hero-grid { position: absolute; inset: 0; opacity: .25; background-image: linear-gradient(90deg, transparent calc(25% - 1px), rgba(255,255,255,.14) 25%, transparent calc(25% + 1px)), linear-gradient(90deg, transparent calc(50% - 1px), rgba(255,255,255,.14) 50%, transparent calc(50% + 1px)), linear-gradient(90deg, transparent calc(75% - 1px), rgba(255,255,255,.14) 75%, transparent calc(75% + 1px)); }
 .hero-content { position: relative; z-index: 2; padding-top: 55px; }
@@ -138,7 +138,7 @@ h1 em, h2 em { color: var(--gold-light); font-style: normal; font-weight: 400; }
 .value-card p { margin: 0; color: rgba(255,255,255,.48); font-size: 11px; line-height: 1.6; }
 
 .cta-section { position: relative; min-height: 610px; display: flex; align-items: center; color: white; background: var(--navy); }
-.cta-bg { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(10,20,31,.95) 0%, rgba(10,20,31,.72) 53%, rgba(10,20,31,.26)), url('https://images.unsplash.com/photo-1508450859948-4e04fabaa4ea?auto=format&fit=crop&w=2000&q=90') center / cover; filter: saturate(.72); }
+.cta-bg { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(10,20,31,.95) 0%, rgba(10,20,31,.72) 53%, rgba(10,20,31,.26)), url('/images/contact-riyadh.webp') center / cover; filter: saturate(.72); }
 .cta-section::after { content: ''; position: absolute; top: 0; bottom: 0; left: 9%; width: 1px; background: rgba(255,255,255,.12); box-shadow: 360px 0 rgba(255,255,255,.08), 720px 0 rgba(255,255,255,.08); }
 .cta-content { position: relative; z-index: 2; }
 .cta-content > p:not(.eyebrow) { max-width: 550px; margin: 26px 0 32px; color: rgba(255,255,255,.65); font-size: 15px; line-height: 1.75; }
@@ -231,7 +231,7 @@ h1 em, h2 em { color: var(--gold-light); font-style: normal; font-weight: 400; }
   .section { padding: 76px 0; }
   .logo { font-size: 17px; }
   .logo svg { width: 31px; height: 31px; }
-  .hero-section { min-height: 720px; background-image: linear-gradient(90deg, rgba(10,20,31,.94), rgba(10,20,31,.46)), url('/images/oviara-hero.png'); }
+  .hero-section { min-height: 720px; background-image: linear-gradient(90deg, rgba(10,20,31,.94), rgba(10,20,31,.46)), url('/images/hero-riyadh-mobile.webp'); }
   .eyebrow { margin-bottom: 18px; font-size: 9px; }
   .hero-content h1 { font-size: 41px; line-height: 1.08; }
   .hero-lead { margin: 24px 0 30px; font-size: 14px; line-height: 1.65; }
@@ -298,7 +298,7 @@ html[dir="rtl"] .button:hover svg,
 html[dir="rtl"] .text-link:hover svg { transform: translateX(-4px); }
 html[dir="rtl"] .button:hover svg[data-icon="arrow"],
 html[dir="rtl"] .text-link:hover svg[data-icon="arrow"] { transform: scaleX(-1) translateX(4px); }
-html[dir="rtl"] .hero-section { background: linear-gradient(270deg, rgba(10,20,31,.96) 0%, rgba(11,23,36,.77) 45%, rgba(10,20,31,.15) 78%), linear-gradient(0deg, rgba(11,21,32,.38), transparent 50%), url('/images/oviara-hero.png') center 54% / cover no-repeat; }
+html[dir="rtl"] .hero-section { background: linear-gradient(270deg, rgba(10,20,31,.96) 0%, rgba(11,23,36,.77) 45%, rgba(10,20,31,.15) 78%), linear-gradient(0deg, rgba(11,21,32,.38), transparent 50%), url('/images/hero-riyadh.webp') center 54% / cover no-repeat; }
 html[dir="rtl"] .hero-facts div { border-left: 0; border-right: 1px solid rgba(255,255,255,.14); }
 html[dir="rtl"] .hero-scroll i::after { left: auto; right: -20px; animation-name: scroll-line-rtl; }
 html[dir="rtl"] .intro-image-wrap { margin-left: 0; margin-right: 30px; }
@@ -311,7 +311,7 @@ html[dir="rtl"] .value-index { right: auto; left: 20px; }
 html[dir="rtl"] .values-grid { border-left: 0; border-right: 1px solid rgba(255,255,255,.12); }
 html[dir="rtl"] .value-card { border-right: 0; border-left: 1px solid rgba(255,255,255,.12); }
 html[dir="rtl"] .cta-section::after { left: auto; right: 9%; box-shadow: -360px 0 rgba(255,255,255,.08), -720px 0 rgba(255,255,255,.08); }
-html[dir="rtl"] .cta-bg { background: linear-gradient(270deg, rgba(10,20,31,.95) 0%, rgba(10,20,31,.72) 53%, rgba(10,20,31,.26)), url('https://images.unsplash.com/photo-1508450859948-4e04fabaa4ea?auto=format&fit=crop&w=2000&q=90') center / cover; }
+html[dir="rtl"] .cta-bg { background: linear-gradient(270deg, rgba(10,20,31,.95) 0%, rgba(10,20,31,.72) 53%, rgba(10,20,31,.26)), url('/images/contact-riyadh.webp') center / cover; }
 html[dir="rtl"] .contact-methods { border-left: 0; border-right: 1px solid rgba(255,255,255,.16); }
 html[dir="rtl"] .contact-method { border-right: 0; border-left: 1px solid rgba(255,255,255,.16); }
 
@@ -323,7 +323,7 @@ html[dir="rtl"] .contact-method { border-right: 0; border-left: 1px solid rgba(2
 @media (max-width: 560px) {
   html[dir="rtl"] .image-frame { inset: 18px -18px -18px 18px; }
   html[dir="rtl"] .intro-note { right: auto; left: -4px; }
-  html[dir="rtl"] .hero-section { background-image: linear-gradient(270deg, rgba(10,20,31,.94), rgba(10,20,31,.46)), url('/images/oviara-hero.png'); }
+  html[dir="rtl"] .hero-section { background-image: linear-gradient(270deg, rgba(10,20,31,.94), rgba(10,20,31,.46)), url('/images/hero-riyadh-mobile.webp'); }
 }
 
 @media (prefers-reduced-motion: reduce) {

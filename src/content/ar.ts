@@ -58,7 +58,7 @@ export const ar: SiteContent = {
     ],
     discover: "اعرف المزيد",
     imageAlt:
-      "واجهة مبنى حديث تعبّر عن نشاط التطوير العقاري لدى أوفيارا",
+      "مبنى حديث في مركز الملك عبدالله المالي بالرياض يعبّر عن نشاط التطوير العقاري",
     noteTitle: "شركة واحدة. ثلاثة أنشطة.",
     noteSubtitle: "تكامل في التصور",
   },
@@ -73,27 +73,24 @@ export const ar: SiteContent = {
       {
         title: "التطوير العقاري",
         description: "تطوير عقاري يركز على مساحات عملية ومدروسة.",
-        image:
-          "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1000&q=85",
-        alt: "مبنى تجاري حديث يعبّر عن نشاط التطوير العقاري",
+        image: "/images/activity-development.webp",
+        alt: "واجهة مبنى سكني حديث بشرفات تعبّر عن نشاط التطوير العقاري",
         icon: "building",
       },
       {
         title: "المقاولات",
         description:
           "خدمات مقاولات تُقدَّم من خلال تخطيط منسق وتنفيذ مهني.",
-        image:
-          "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1000&q=85",
-        alt: "موقع إنشاء مع رافعة يعبّر عن نشاط المقاولات",
+        image: "/images/activity-contracting.webp",
+        alt: "رافعة فوق مبنى قيد الإنشاء في الرياض تعبّر عن نشاط المقاولات",
         icon: "crane",
       },
       {
         title: "التجارة",
         description:
           "نشاط تجاري يدعم أعمال الشركة ويخدم متطلبات عملائها.",
-        image:
-          "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1000&q=85",
-        alt: "رفوف مستودع منظمة تعبّر عن نشاط التجارة",
+        image: "/images/activity-trading.webp",
+        alt: "حاويات شحن ورافعات في ميناء عند الغروب تعبّر عن نشاط التجارة والخدمات اللوجستية",
         icon: "layers",
       },
     ],

@@ -9,7 +9,7 @@
     "icon": ""
   },
   "openGraph": {
-    "image": "/images/oviara-hero.png"
+    "image": "/images/og-oviara.webp"
   },
   "customScripts": {
     "headEnd": "<script>try{var l=localStorage.getItem('oviara-locale');if(l==='en'||l==='ar'){document.documentElement.lang=l;document.documentElement.dir=l==='ar'?'rtl':'ltr'}}catch(e){}</script>"
