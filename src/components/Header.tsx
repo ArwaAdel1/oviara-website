@@ -31,7 +31,6 @@ export function Header() {
     >
       <div className="header-inner">
         <Logo
-          light={!scrolled}
           label={content.header.logoHome}
           brandName={content.brandName}
         />

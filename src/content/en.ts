@@ -5,7 +5,7 @@ export const en: SiteContent = {
   meta: {
     title: "OVIARA | Real Estate Development, Contracting & Trading",
     description:
-      "OVIARA is a Saudi company bringing real estate development, contracting, and trading together under one company.",
+      "OVIARA brings real estate development, contracting, and trading together under one company.",
   },
   nav: {
     home: "Home",
@@ -36,8 +36,8 @@ export const en: SiteContent = {
         text: "Development · Contracting · Trading",
       },
       {
-        title: "Saudi Company",
-        text: "Local understanding",
+        title: "Client Focus",
+        text: "Tailored solutions",
       },
       {
         title: "One Partner",
@@ -47,7 +47,7 @@ export const en: SiteContent = {
   },
   about: {
     eyebrow: "About OVIARA",
-    title: "A Saudi Company.",
+    title: "One Company.",
     titleEmphasis: "Integrated Activities.",
     lead: "OVIARA brings real estate development, contracting, and trading together under one company.",
     body: "Our work is guided by quality, professionalism, transparency, and a clear understanding of each client's needs. We keep communication direct and decisions focused on the requirements of every engagement.",
@@ -58,7 +58,7 @@ export const en: SiteContent = {
     ],
     discover: "Discover More",
     imageAlt:
-      "Modern building in Riyadh's King Abdullah Financial District representing real estate development",
+      "Modern building representing real estate development",
     noteTitle: "One company. Three activities.",
     noteSubtitle: "Integrated by design",
   },
@@ -83,7 +83,7 @@ export const en: SiteContent = {
         description:
           "Contracting services delivered through coordinated planning and professional execution.",
         image: "/images/activity-contracting.webp",
-        alt: "Construction crane over a building under construction in Riyadh representing contracting activity",
+        alt: "Construction crane over a building under construction representing contracting activity",
         icon: "crane",
       },
       {
@@ -143,7 +143,7 @@ export const en: SiteContent = {
   },
   footer: {
     tagline:
-      "A Saudi company bringing real estate development, contracting, and trading together under one company.",
+      "Bringing real estate development, contracting, and trading together under one company.",
     companyLabel: "Company",
     activitiesLabel: "Activities",
     contactLabel: "Get in Touch",

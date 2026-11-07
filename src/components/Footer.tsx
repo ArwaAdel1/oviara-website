@@ -25,7 +25,6 @@ export function Footer() {
       <div className="container footer-top">
         <div className="footer-brand">
           <Logo
-            light
             label={content.header.logoHome}
             brandName={content.brandName}
           />

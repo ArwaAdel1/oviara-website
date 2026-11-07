@@ -1,18 +1,18 @@
 {
   "title": "أوفيارا | التطوير العقاري والمقاولات والتجارة",
-  "description": "أوفيارا شركة سعودية تجمع التطوير العقاري والمقاولات والتجارة ضمن شركة واحدة.",
+  "description": "تجمع أوفيارا التطوير العقاري والمقاولات والتجارة ضمن شركة واحدة.",
   "language": "ar",
   "robots": {
     "index": true
   },
   "icons": {
-    "icon": ""
+    "icon": "/images/oviara-logo-icon.png"
   },
   "openGraph": {
-    "image": "/images/og-oviara.webp"
+    "image": "/images/oviara-logo-icon.png"
   },
   "customScripts": {
-    "headEnd": "<script>try{var l=localStorage.getItem('oviara-locale');if(l==='en'||l==='ar'){document.documentElement.lang=l;document.documentElement.dir=l==='ar'?'rtl':'ltr'}}catch(e){}</script>"
+    "headEnd": "<link rel=\"apple-touch-icon\" sizes=\"180x180\" href=\"/images/oviara-logo-icon.png\" /><script>try{var l=localStorage.getItem('oviara-locale');if(l==='en'||l==='ar'){document.documentElement.lang=l;document.documentElement.dir=l==='ar'?'rtl':'ltr'}}catch(e){}</script>"
   },
   "accessibility": {
     "addBypassLinks": false,
