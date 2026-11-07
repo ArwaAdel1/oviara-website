@@ -26,7 +26,7 @@ export const en: SiteContent = {
     eyebrow: "Real Estate Development · Contracting · Trading",
     title: "Building Excellence.",
     titleEmphasis: "Shaping the Future.",
-    lead: "OVIARA is a Saudi company bringing real estate development, contracting, and trading together under one company.",
+    lead: "OVIARA — Creating Opportunities Today. Building Lasting Value.",
     primaryCta: "Explore Our Activities",
     secondaryCta: "Contact Us",
     scroll: "Scroll to explore",
